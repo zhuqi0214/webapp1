@@ -1,0 +1,40 @@
+.sheet{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 99;;
+    .wrap{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        li,button{
+            color: #1063e5;
+            .fs(16);
+            background-color: #f1f2f3;
+            list-style: none;
+            .h(50);
+            .lh(50);
+        }
+        button{
+            border-radius: 5/@rem;
+            width: 96%;
+            display: block;
+            margin: 0 auto;
+        }
+        ul{
+            margin: 8/@rem;
+            padding: 0;
+            overflow: hidden;
+            max-height: 500/@rem;
+            li{
+                text-align: center;
+              border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+}

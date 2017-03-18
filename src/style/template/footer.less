@@ -1,0 +1,39 @@
+.foot{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    .h(40);
+    .lh(40);
+    left: 0;
+    right: 0;
+    font-size: 0;
+    li{
+        width: 33.33333%;
+        .fs(20);
+        text-align: center;
+        color: @muteColor;
+        &.select{
+            background-color: @highlightBgColor;
+            color: @highlightColor;
+        }
+        .icon-document{
+            background: url(../image/document.png) no-repeat;
+            background-size: 25/@rem 21/@rem;
+            width: 25/@rem;
+            height: 21/@rem;
+        }
+        .icon-search{
+            background: url(../image/search.png) no-repeat;
+            background-size: 24/@rem 24/@rem;
+            width: 24/@rem;
+            height: 24/@rem;
+        }
+         .icon-my{
+            background: url(../image/my.png) no-repeat;
+            background-size: 24/@rem 24/rem;
+            width: 24/@rem;
+            height: 24/@rem;
+        }
+    }
+}
